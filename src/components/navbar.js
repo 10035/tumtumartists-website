@@ -4,7 +4,7 @@ import React from 'react'
 function navbar() {
   return (
     <div className="links">
-        <Link to="/">Home</Link>
+        <Link to="/">About Us</Link>
         <Link to="/artists">For Artists</Link>
         <Link to="/fans">For Fans</Link>
         <Link to="/portfolio">Portfolio</Link>
