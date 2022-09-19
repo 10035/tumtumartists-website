@@ -1,14 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `TumTumArtists`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.tumtumartists.com`
   },
-  plugins: [{
-    resolve: 'gatsby-plugin-google-analytics',
-    options: {
-      "trackingId": ""
-    }
-  }, "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  plugins: [
+    "gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
