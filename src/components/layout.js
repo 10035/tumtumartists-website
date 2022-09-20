@@ -20,7 +20,7 @@ import Footer from './footer'
 
 function layout({ children }) {
   return (
-    <main>
+    <main className="styles">
         <Navbar />
         <div className="content">
             { children }
