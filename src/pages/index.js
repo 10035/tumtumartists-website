@@ -1,13 +1,19 @@
 // import React, { Component } from 'react'
-import React from 'react'
-import Layout from "../components/layout";
-
+import * as React from 'react'
+import Layout from "../components/layout"
+// import Banner from "../components/banner"
+import BannerPic from "../images/banner.png"
 
 function index() {
   return (
-    <Layout>
+    // <Layout>  TODO: Fix Layout Component so other components render with it
+     <main>
+      {/* <Banner /> */}
       <div>index</div>
-    </Layout>
+      <p>Test</p>
+      <img src={BannerPic} alt="Sky" style={{ maxWidth: '100%'}}/>
+     </main>
+    // </Layout>
   )
 }
 

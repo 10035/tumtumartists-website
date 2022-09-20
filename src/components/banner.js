@@ -1,9 +1,9 @@
 import React from 'react'
-import Image from '../images'
+import Banner from '../images/banner.png'
 
 function banner() {
   return (
-    <img src={} alt=""></img>
+    <img src={Banner} alt="test" style={{ maxWidth: '100%' }}></img>
   )
 }
 
