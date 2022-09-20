@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from './navbar'
+import Footer from './footer'
 
 export class layout extends Component {
   render() {
@@ -8,7 +9,7 @@ export class layout extends Component {
         <Navbar />
         {/* <navbar>Navbar</navbar> */}
         <content>Body</content>
-        <footer>TumTum Artists 2022</footer>
+        <Footer />
       </main>
     )
   }
