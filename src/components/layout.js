@@ -1,18 +1,33 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Navbar from './navbar'
 import Footer from './footer'
 
-export class layout extends Component {
-  render() {
-    return (
-      <main>
+// export class layout extends Component {
+//   render() {
+//     return (
+//       <main>
+//         <Navbar />
+//         {/* <navbar>Navbar</navbar> */}
+//         <content>Body</content>
+//         <Footer />
+//       </main>
+//     )
+//   }
+// }
+
+// export default layout
+
+
+function layout({ children }) {
+  return (
+    <main>
         <Navbar />
-        {/* <navbar>Navbar</navbar> */}
-        <content>Body</content>
+        <div className="content">
+            { children }
+        </div>
         <Footer />
-      </main>
-    )
-  }
+    </main>
+  )
 }
 
 export default layout
