@@ -1,5 +1,12 @@
+a {
+    color: rgb(245, 239, 241);
+    /* font-weight: auto; */
+    /* font-size: 100px; */
+}
+
 .nav {
-    background-color: rgb(114, 158, 216);
+    color: white;
+    background-color: rgb(38, 50, 75);
     margin: 40px auto;
     text-align: center;
     padding: 30px 10px;
@@ -13,5 +20,5 @@
 }
 
 .logo {
-    
+
 }
