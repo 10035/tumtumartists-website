@@ -1,10 +1,10 @@
 import React from 'react'
 import Layout from "../components/layout"
 
-function forartists() {
+function contactus() {
   return (
-    <Layout />    
+    <Layout />
   )
 }
 
-export default forartists
+export default contactus
