@@ -10,9 +10,9 @@ function index() {
      <main>
       <Layout>
         <Banner />
-        <div className={Styles.body}>Body</div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/vI-u79e8kiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kiKk3W8OQXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {/* <div className={Styles.body}>Body</div> */}
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vI-u79e8kiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/kiKk3W8OQXk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </Layout>
      </main>
   )
