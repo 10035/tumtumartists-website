@@ -1,6 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import * as Navbar from '../styles/navbar.module.css'
+import Logo from '../images/logo.png'
 
 function navbar() {
   return (

@@ -5,6 +5,9 @@ a {
 }
 
 .nav {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto; */
     color: white;
     background-color: rgb(38, 50, 75);
     /* margin: auto; */

@@ -3,7 +3,13 @@ import Layout from "../components/layout"
 
 function forartists() {
   return (
-    <Layout />    
+    <Layout>
+        <div>
+            <h2>Artist Development</h2>
+            <h2>Branding Strategy</h2>
+            <h2>Booking</h2>
+        </div>  
+    </Layout> 
   )
 }
 
