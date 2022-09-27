@@ -5,13 +5,16 @@ import Logo from '../images/logo.png'
 
 function navbar() {
   return (
-    <div className={Navbar.nav}>
-        <Link to="/" className={Navbar.links}>About Us</Link>
-        <Link to="/portfolio" className={Navbar.links}>Portfolio</Link>
-        <Link to="/forartists" className={Navbar.links}>For Artists</Link>
-        <Link to="/forfans" className={Navbar.links}>For Fans</Link>
-        <Link to="/contact" className={Navbar.links}>Contact Us</Link>
+    <nav>
+    <h2>TumTum Artists</h2>
+    <div className="styles">
+        <Link to="/">About Us</Link>
+        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/forartists">For Artists</Link>
+        <Link to="/forfans">For Fans</Link>
+        <Link to="/contact">Contact Us</Link>
     </div>
+    </nav>
   )
 }
 
