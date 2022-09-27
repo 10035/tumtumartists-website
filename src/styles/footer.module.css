@@ -1,0 +1,15 @@
+.footer {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-top: solid;
+    /* margin: 40px auto; */
+    text-align: center;
+}
+
+.footer .links {
+    padding: 10px;
+    color: rgb(45, 48, 59);
+    margin-left: 10px;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+}
